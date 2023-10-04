@@ -1,0 +1,151 @@
+body{
+    background: url(/images/gifts.jpg) no-repeat fixed center;
+    color: #ffffff;
+    height:100%;
+    font-family: Verdana;
+}
+body p{
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #ffffff;
+    font-size: medium;
+}
+.container{
+    background-color: #222222;
+    opacity: 0.99;
+}
+.card2{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 33%;
+    display: block;
+    color: #2f5b21;
+    text-align: center;
+    overflow: hidden;
+}
+.card2 p{
+    /*font-size: 12px;*/
+}
+.container p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card{
+    margin-bottom: 30px;
+    color: #ae1c17;
+}
+.card p{
+    color: #2f5b21;
+    text-align: center;
+}
+
+.card-block{
+    background-color: #f1eaea;
+    border-top: none;
+}
+.text{
+    margin: 30px 30px;
+}
+/*FOOTER*/
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    margin-top: 22px;
+    padding: 40px;
+    text-align: center;
+}
+footer a {
+    color:#ffffff;
+    font-size: 20px;
+}
+footer a:hover{
+    color:#ffffff;
+}
+footer ul{
+    list-style: none;
+}
+.bigTitle{
+    background-color: #7a1111;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+.bigTitle h1{
+    text-align: center;
+}
+.imgContainer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-block p{
+    font-size: 12px;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+}
+.formsContainer {
+    padding: 20px;
+}
+.formsContainer  .form-group{
+    margin: 0 auto;
+}
+.formsContainer  .form-group label{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.formsContainer  .form-group input{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    /*padding: 10px;*/
+}
+.formsContainer .btn-success{
+    display:block;
+    margin: 0 auto;
+
+}
+.formsContainer .btn-primary{
+    display:block;
+    margin: 0 auto;
+
+}
+.formsContainer .imgContainerKey{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.card-header{
+    margin: 0 auto;
+    text-align: center;
+}
+.invalid-feedback{
+    color: #ae1c17;
+}
+.timer{
+    text-align: center;
+}
+#demo{
+    display: inline-block;
+    font-size: 30px;
+    font-family: fantasy;
+    padding: 10px;
+    border-radius: 10px;
+    animation: myanimation 12s infinite;
+}
+@keyframes myanimation {
+    0% {background-color: red;}
+    25%{background-color:orange;}
+    50%{background-color:green;}
+    75%{background-color:blue;}
+    100% {background-color: red;}
+}
+
+
+
